@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-left {
+  display: inline-block;
+  width: 60%;
+  margin-top: 18%;
+  padding-left: 135px;
+}
+
+.container-left h1 {
+  color: #5d5d7d;
+  font-size: 70px;
+  line-height: 80px;
+  margin-bottom: 15px;
+  width: 368px;
+}
+
+.container-left p {
+  color: #5d5d7d;
+  font-size: 28px;
+  line-height: 48px;
+  width: 540px;
+  text-align: justify;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+
+.container-left button {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  width: 269px;
+  height: 62px;
+  background-color: #9499ea;
+  box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.container-left button:hover {
+  opacity: 0.8;
+}
+
+.container-left button:active {
+  opacity: 0.5;
+}
+
+.container-right header {
+  margin: 24px 0 0 57px;
+}
+
+.container-right {
+  display: inline-block;
+  background-color: rgba(93, 93, 125, 0.16);
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+}
+
+.container-right img {
+  position: relative;
+  top: 18%;
+  right: 155px;
+  height: 650px;
+}
+.container-right a {
+  color: #5d5d7d;
+  font-size: 28px;
+  line-height: 41px;
+  margin-right: 41px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container-right a:hover {
+  opacity: 0.8;
+}
+
+.container-right a:active {
+  opacity: 0.5;
+}
+
+.container-right a:nth-child(2) {
+  opacity: 0.4;
+}
+
+.container-right a:nth-child(2):hover {
+  opacity: 0.3;
+}
+
+.container-right a:nth-child(2):active {
+  opacity: 0.1;
+}
+
+/* Responsividade */
+
+/* Laptops */
+
+@media (max-width: 1400px) {
+  .container-left {
+    width: 100%;
+    height: 65%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-left h1 {
+    font-size: 80px;
+    line-height: 100px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+  }
+
+  .container-left p {
+    margin: 30px 40px 50px 40px;
+    width: auto;
+    font-size: 25px;
+    line-height: 24px;
+  }
+
+  .container-left button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  .container-right img {
+    position: static;
+    width: 90%;
+  }
+
+  .container-right header {
+    display: none;
+  }
+}
+
+/* Tablets */
+
+@media (max-width: 900px) {
+  .container-left {
+    width: 100%;
+    height: 65%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-left h1 {
+    font-size: 80px;
+    line-height: 100px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+  }
+
+  .container-left p {
+    margin: 30px 40px 50px 40px;
+    width: auto;
+    font-size: 25px;
+    line-height: 24px;
+  }
+
+  .container-left button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  .container-right img {
+    position: static;
+    width: 90%;
+  }
+
+  .container-right header {
+    display: none;
+  }
+}
+
+/* Dispositivos Móveis G */
+
+@media (max-width: 600px) {
+  .container-left {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-left h1 {
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+    text-align: center;
+  }
+
+  .container-left p {
+    margin: 15px 40px;
+    width: auto;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .container-left button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  .container-right img {
+    position: static;
+    width: 90%;
+  }
+
+  .container-right header {
+    display: none;
+  }
+}
+
+/* Dispositivos Móveis P */
+
+@media (max-width: 350px) {
+  .container-left {
+    height: 55%;
+  }
+}
